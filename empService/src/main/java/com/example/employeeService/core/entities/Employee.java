@@ -24,6 +24,9 @@ public class Employee {
         this.title = title;
     }
 
+    public Employee() {
+    }
+
     public String getEmployeeId() {
         return employeeId;
     }
@@ -43,4 +46,25 @@ public class Employee {
     public String getTitle() {
         return title;
     }
+
+    public void setEmployeeId(String employeeId) {
+        this.employeeId = employeeId;
+    }
+
+    public void setFirstName(String firstName) {
+        this.firstName = firstName;
+    }
+
+    public void setLastName(String lastName) {
+        this.lastName = lastName;
+    }
+
+    public void setEmail(String email) {
+        this.email = email;
+    }
+
+    public void setTitle(String title) {
+        this.title = title;
+    }
+
 }
